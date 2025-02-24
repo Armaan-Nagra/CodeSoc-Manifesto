@@ -3,10 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Candidate Manifesto</title>
+    <title>Armaan Nagra - Manifesto for Vice President</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- CSS Styles -->
+    <style>
+        /* Global Styles */
+        body {
+            background-color: #121212;
+            color: #E0E0E0;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 40px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+        h1, h2 {
+            color: #BB86FC;
+        }
+        p, li {
+            line-height: 1.6;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        a {
+            color: #03DAC6;
+            text-decoration: none;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        a::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #03DAC6;
+            transform-origin: bottom right;
+            transition: transform 0.3s ease;
+        }
+        a:hover {
+            color: #BB86FC;
+        }
+        a:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+        /* Fade-in Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
 </head>
-<body style="text-align: center;">
-    <h1>Candidate Manifesto</h1>
-    <iframe src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://raw.githubusercontent.com/Armaan-Nagra/CodeSoc-Manifesto/main/Candidate%20Manifesto.pdf" width="80%" height="800px"></iframe>
+<body>
+    <div class="container">
+        <h1>Armaan Nagra’s Manifesto for Vice President of CodeSoc</h1>
+        <p>Hey everyone,</p>
+        <p>I’m <strong>Armaan Nagra</strong>, a first-year Computer Science student, and I am running for Vice President of The Warwick Coding Society. I am passionate about building projects, solving complex problems, and creating an inclusive space for all, regardless of whether you’re new to coding or have significant experience.</p>
+        <h2>Why Me?</h2>
+        <p>Over the past year, I have actively engaged with CodeSoc events, including industry talks, mentorship, Sports Sundays, social events, internship discussions, WHACK, and more. These experiences have deepened my understanding of the society’s objectives and operations.</p>
+        <p>My experience in organizing events during school has strengthened my leadership, planning, and teamwork skills. Additionally, participating in <strong>4 hackathons</strong>, leading winning projects, and collaborating with different people has allowed me to learn new technologies under tight deadlines.</p>
+        <h2>My Vision</h2>
+        <ul>
+            <li><strong>Strengthen Society Events & Engagement:</strong> Work with the Social Secretary to host more events and assist the Sports Coordinator with team-building initiatives to attract more people who share a love for coding.</li>
+            <li><strong>Encourage More Real-World Projects:</strong> Provide members with opportunities to build projects and showcase them to industry professionals, offering chances to secure funding. This will encourage experimentation with new ideas and technologies without fear of failure.</li>
+            <li><strong>Encourage Collaboration:</strong> Partner with other societies to work on interdisciplinary projects, combining coding with fields such as Engineering, Maths, Art, and more.</li>
+        </ul>
+        <p>If you have any questions, please do not hesitate to contact me.</p>
+        <p>Best regards,</p>
+        <img src="signature.png" alt="Armaan Nagra Signature" width="300">
+        <p><strong>Armaan Nagra</strong></p>
+        <p>📩 <a href="mailto:armaan.nagra@warwick.ac.uk">armaan.nagra@warwick.ac.uk</a><br>
+        🔗 <a href="https://www.linkedin.com/in/armaan-nagra/" target="_blank">LinkedIn</a></p>
+    </div>
 </body>
 </html>
